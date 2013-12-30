@@ -1,5 +1,5 @@
 {
-  "name": "protractor",
+  "name": "protractor-multi",
   "description": "Webdriver E2E test wrapper for Angular.",
   "homepage": "https://github.com/angular/protractor",
   "keywords": [
@@ -17,7 +17,9 @@
     "saucelabs": "~0.1.0",
     "glob": ">=3.1.14",
     "adm-zip": ">=0.4.2",
-    "optimist": "~0.6.0"
+    "optimist": "~0.6.0",
+    "lodash": "2.4.1",
+    "q": "0.9.7"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
@@ -33,8 +35,7 @@
     "url": "git://github.com/angular/protractor.git"
   },
   "bin": {
-    "protractor": "bin/protractor",
-    "webdriver-manager": "bin/webdriver-manager"
+    "protractor-multi": "bin/protractor-multi"
   },
   "main": "lib/protractor.js",
   "scripts": {
